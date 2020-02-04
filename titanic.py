@@ -30,5 +30,7 @@ df = pd.DataFrame({"Nombre de personne":[d, e, f, g, c]}, index=df1)
 print(df)
 plt.figure()
 df.plot.bar()
-
+plt.xlabel("Catégories des âges")
+plt.ylabel("Nombre de personne")
+plt.title("Graphe des âges par catégories")
 plt.show()
