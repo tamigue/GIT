@@ -28,3 +28,7 @@ h = c+d+e+f+g
 df1 = pd.Series(["cat0", "cat1", "cat2", "cat3","Personne sans age"])
 df = pd.DataFrame({"Nombre de personne":[d, e, f, g, c]}, index=df1)
 print(df)
+plt.figure()
+df.plot.bar()
+
+plt.show()
